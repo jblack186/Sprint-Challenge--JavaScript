@@ -36,13 +36,13 @@ CuboidMaker.prototype.surfaceArea = function() {
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
 
-const jamison = new CuboidMaker({
+const cuboid = new CuboidMaker({
   length: 4,
   width: 5,
   height:5
 })
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(jamison.volume()); // 100
- console.log(jamison.surfaceArea()); // 130
+console.log(cuboid.volume()); // 100
+ console.log(cuboid.surfaceArea()); // 130
 
 
